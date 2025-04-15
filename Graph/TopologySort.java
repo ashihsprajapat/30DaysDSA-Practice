@@ -13,14 +13,9 @@ public class TopologySort {
     }
 
     public static void creategraph(ArrayList<Edge> graph[]) {
-
         for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
         }
-        // graph[0].add(new Edge(0, 1));
-
-        // graph[1].add(new Edge(1, 0));
-
         graph[2].add(new Edge(2, 3));
 
         graph[3].add(new Edge(3, 1));
